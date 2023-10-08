@@ -13,7 +13,11 @@ textarea {
 }
 
 .description {
-  white-space: pre-wrap;
+  background-color: white;
+  border: 1px solid #d3d3d3; /* Add a light border */
+  resize: none;
+  color: #000000;
+  padding: 10px;
 }
 
 .time-block {
@@ -31,7 +35,7 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: darkgray;
   color: white;
 }
 
